@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../Assets/Quicksand-SemiBold.ttf);
+}
+
+html{
+    background-color: #9c89b8;
+    color: #f0e6ef;
+    font-family: Quicksand;
+}
+
+.logo {
+    margin-top: 30vh;
+}
+
+.web-text{
+    position: relative;
+    top: -35vh;
+    left: 67%;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.email{
+    position: relative;
+    top: -2vh;
+    left: 1vh;
+}
+
+.copy {
+    margin-top: 73vh;
+    margin-left: 62vw;
+    justify-content: right;
+    font-size: small;
+}
+.logo img #mobile{
+    display: none;
+}
+
+a:link, a:visited{
+    color: #f0e6ef;
+    text-decoration-line: none;
+}
+
+body{
+    position: fixed;
+    left: 6%;
+}
+
+@media only screen and (max-width: 767px) and (min-width:416px){
+    
+    .logo #main{
+        display:none;
+    }
+
+    .logo #mobile{
+        display: flex;
+        width: 450px;
+    }
+
+    .web-text{
+        top: -3vh;
+        left: 30%;
+    }
+
+    .web-text br {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 415px) and (min-width:350px){
+    
+        .logo #main{
+            display:none;
+        }
+    
+        .logo #mobile{
+            display: flex;
+            width: 300px;
+        }
+    
+        .web-text{
+            top: -3vh;
+            left: 30%;
+            font-size: large;
+        }
+    
+        .web-text br {
+            display:none;
+        }
+
+}
+
+@media only screen and (max-width: 913px) and (min-width:766px){
+    
+    .logo #main{
+        display:none;
+    }
+
+    .logo #mobile{
+        display: flex;
+        width: 700px;
+    }
+
+    .web-text{
+        top: -3vh;
+        left: 30%;
+        font-size: 30pt;
+    }
+
+    .web-text br {
+        display:none;
+    }
+
+    body{
+        left: 10vw;
+    }
+
+    .email img{
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width:768px){
+    
+    .logo #main{
+        display:none;
+    }
+
+    .logo #mobile{
+        display: flex;
+        width: 600px;
+    }
+
+    .web-text{
+        top: -3vh;
+        left: 30%;
+        font-size: xx-large;
+    }
+
+    .web-text br {
+        display:none;
+    }
+}
